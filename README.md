@@ -115,7 +115,7 @@ IBM plug connector make it unlikely that a different circuit board design can
 avoid this issue.
 
 ![A close-up of wear on the edge of the bracket that presses down on the
-adaptor](bracket_wear.jpg)
+adaptor](pics/bracket_wear.jpg)
 
 _Figure 8._ This close-up of the IBM 5100's bracket suggests that its enamel
 coating is already wearing away. The best option for avoiding shorts in
@@ -143,7 +143,7 @@ single-pin 3M 951101-8622-AR pins (no convenient link).
 
 ## Assembly
 
-![Rendered front and back images of the "bare" adaptor PCB(s)](pcb.png)
+![Rendered front and back images of the "bare" adaptor PCB(s)](pics/pcb.png)
 
 The design files in this repository describe a single "combined" circuit board
 with two detachable pieces. The image above shows both sides of this combined
