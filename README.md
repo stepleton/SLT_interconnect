@@ -18,7 +18,7 @@ use these resources.
 
 ## Background and motivation
 
-Most people familiar with SLT and MST will think of the square aluminum
+Most people familiar with SLT and MST will think of the square aluminium
 housings for hybrid circuits and ICs (respectively) that appeared on IBM
 components from the 1960s through the 1990s. As it happens, SLT and MST
 specifications also described ways of building circuit boards and connecting
@@ -77,7 +77,7 @@ alignment of the constituent pins and sockets, especially if these parts are
 made by trimming breakaway or cuttable strips and therefore vary in size.
 Perfection may be impossible, but persistence can give you a functional
 arrangement that orients square pins and square sockets to align roughly with
-the board itself.  Note that like the plastic shroud on the original IBM socket
+the board itself. Note that like the plastic shroud on the original IBM socket
 connector, the connector's horizontal circuit board is also polarised by square
 notches in two of its corners.
 
@@ -101,7 +101,7 @@ _Figure 6._ When made with low-profile pin sockets, the socket adaptor can fit
 into the same places where real IBM wire-to-board socket adaptors go. Like the
 IBM original, our adaptor is liable to come loose of the plug unless it is
 restrained somehow. For this, the IBM 5100 makes use of a metal bracket coated
-in a nonconductive black enamel finish.
+in a non-conductive black enamel finish.
 
 ![A close-up of the bracket impinging on some of the socket adaptor's exposed
 solder joints](pics/restraint_5100_2.jpg)
@@ -109,7 +109,7 @@ solder joints](pics/restraint_5100_2.jpg)
 _Figure 7._ Unfortunately, there is a problem. A restraining device like this
 metal bracket may impinge on the exposed solder joints that attach the
 individual header pin sockets to the horizontal circuit board. If the device is
-conductive or if it has a nonconductive coating that can wear away, these pins
+conductive or if it has a non-conductive coating that can wear away, these pins
 may be shorted.  The designs of modern pin header sockets and of the original
 IBM plug connector make it unlikely that a different circuit board design can
 avoid this issue.
@@ -132,10 +132,10 @@ same places where the original IBM plugs and sockets were designed to go.
 For socket adaptors, the header pin sockets should extend no further than 5.2mm
 from the horizontal circuit board. So far, the components used have been
 [Samtec CES-101-01-S-S](https://www.samtec.com/products/ces-101-01-s-s)
-single-pin sockets, though these may be more liable to "back out" from original
-IBM plugs than the IBM sockets were. Note that even shorter sockets might cause
-the adaptor to rest too low in the plug for the original restraint to hold it
-in place.
+single-pin sockets, though socket adaptors made with these may be more liable
+to "back out" from original IBM plugs than the IBM sockets were. Note that
+using even shorter pin-header sockets than these might cause the adaptor to
+rest too low in the plug for the original restraint to keep it in place.
 
 For plug adaptors, the header pins should probably not have a mating contact
 length that extends beyond 5mm. So far, the components used have been
@@ -162,7 +162,9 @@ horizontal circuit board is different: it has one side with bare metal
 2. **Plug the tabs of the vertical circuit board into the holes in the
    horizontal circuit board**, making certain that the bare fingers on the
    horizontal circuit board are next to the exposed metal traces on the
-   vertical circuit board.
+   vertical circuit board. Trace the connections from the horizontal board
+   pins/sockets to the vertical board plated through holes to make sure the
+   arrangement suits your needs; if not, flip the vertical board over.
 
 3. Temporarily secure both boards so that they are as close to perpendicular
    as possible, then **solder the vertical board to the horizontal board** by
@@ -185,7 +187,7 @@ horizontal circuit board is different: it has one side with bare metal
    tweezers to rotate and reposition the pin/socket pairs so that they are
    lined up as neatly as possible. 
 
-5. **Tidy the pins and sockets**. Heating each pin or socket solder joint and
+5. **Tidy the pins and sockets**. Reflowing each pin or socket solder joint and
    manually aligning the pins or sockets can help arrange them even more
    neatly. An additional tactic available to people making a plug adaptor and
    a socket adaptor at the same time is to plug the adaptors into each other
@@ -197,7 +199,7 @@ horizontal circuit board is different: it has one side with bare metal
 
 ## Other notes
 
-To the fullest extent possible, this design is releaded into the public domain.
+To the fullest extent possible, this design is released into the public domain.
 Nobody owns it.
 
 ## Acknowledgements
